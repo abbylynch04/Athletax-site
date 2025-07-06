@@ -50,15 +50,52 @@
   </section>
 
   <!-- Contact Form -->
-  <section class="p-6 text-center bg-gray-100">
-    <h2 class="text-2xl font-bold mb-4">Contact</h2>
-    <form action="https://formspree.io/f/your-form-id" method="POST" class="space-y-4 max-w-md mx-auto">
-      <input type="text" name="name" placeholder="Your Name" class="w-full border p-2 rounded" required>
-      <input type="email" name="email" placeholder="Your Email" class="w-full border p-2 rounded" required>
-      <textarea name="message" placeholder="How can we help?" class="w-full border p-2 rounded" rows="4"></textarea>
-      <button type="submit" class="bg-gold text-navy px-4 py-2 rounded">Send Message</button>
-    </form>
-  </section>
+<section class="p-6 text-center bg-gray-100">
+  <h2 class="text-2xl font-bold mb-4">Contact</h2>
+  <form action="https://formspree.io/f/mblyeaoj" method="POST" class="space-y-4 max-w-md mx-auto">
+    
+    <!-- Name -->
+    <input 
+      type="text" 
+      name="name" 
+      placeholder="Your Name" 
+      class="w-full border p-2 rounded" 
+      required
+    >
+
+    <!-- Email -->
+    <input 
+      type="email" 
+      name="email" 
+      placeholder="Your Email" 
+      class="w-full border p-2 rounded" 
+      required
+    >
+
+    <!-- Message -->
+    <textarea 
+      name="message" 
+      placeholder="How can we help?" 
+      class="w-full border p-2 rounded" 
+      rows="4"
+    ></textarea>
+
+    <!-- Anti-spam honeypot -->
+    <input type="text" name="_gotcha" style="display:none" />
+
+    <!-- Redirect after submission -->
+    <input type="hidden" name="_redirect" value="https://athletax.com/thanks.html" />
+
+    <!-- Submit Button -->
+    <button 
+      type="submit" 
+      class="bg-gold text-navy px-4 py-2 rounded"
+    >
+      Send Message
+    </button>
+  </form>
+</section>
+
 
   <!-- Footer -->
   <footer class="bg-navy text-white p-4 text-center text-sm">
