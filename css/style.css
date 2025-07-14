@@ -1,0 +1,54 @@
+/* === /css/style.css === */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+  color: #0D1B2A;
+}
+
+nav {
+  background-color: #0D1B2A;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+header {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #F5B301;
+  color: #0D1B2A;
+}
+
+.btn {
+  background-color: #0D1B2A;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #0D1B2A;
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 4rem;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
