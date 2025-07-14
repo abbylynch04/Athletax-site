@@ -66,6 +66,45 @@ header {
   display: block;
 }
 
+.about-section {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  flex-wrap: wrap; /* allows stacking on small screens */
+}
+
+.about-container .headshot {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #F5B301;
+  flex-shrink: 0;
+}
+
+.about-text {
+  max-width: 500px;
+}
+
+.about-text h2 {
+  margin-top: 0;
+  font-size: 1.75rem;
+  color: #0D1B2A;
+}
+
+.about-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
 /* Footer */
 footer {
   background-color: #0D1B2A;
