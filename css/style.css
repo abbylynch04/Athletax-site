@@ -1,9 +1,11 @@
-
+/* Base Styles */
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   background-color: #ffffff;
   color: #0D1B2A;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 nav {
@@ -21,6 +23,13 @@ nav a {
   font-weight: bold;
 }
 
+/* Logo Image */
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+/* Header Section */
 header {
   text-align: center;
   padding: 4rem 2rem;
@@ -28,6 +37,7 @@ header {
   color: #0D1B2A;
 }
 
+/* Button */
 .btn {
   background-color: #0D1B2A;
   color: #ffffff;
@@ -37,8 +47,26 @@ header {
   font-size: 1rem;
   cursor: pointer;
   text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+.btn:hover {
+  background-color: #ffffff;
+  color: #0D1B2A;
+}
+
+/* Headshot Image */
+.headshot {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #F5B301;
+  margin: 2rem auto 1rem;
+  display: block;
+}
+
+/* Footer */
 footer {
   background-color: #0D1B2A;
   color: #ffffff;
@@ -47,8 +75,30 @@ footer {
   margin-top: 4rem;
 }
 
+/* Main Content */
 main {
   padding: 2rem;
   max-width: 800px;
   margin: auto;
+}
+
+/* Utility */
+.text-center {
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  nav a {
+    margin: 0.25rem 0;
+  }
+
+  body {
+    font-size: 14px;
+  }
 }
